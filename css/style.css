@@ -1,0 +1,143 @@
+body {
+  font-family: 'Proxima Nova W01', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333333;
+  background-color: #fff;
+  font-weight: 300;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+header .container {
+  padding: 15px 0 15px 0;
+}
+
+.parallax-one {
+  background-image: url('http://assets.worryandpeace.com/images/157-4034111-dice-game-random-number-cube-shadow-dark-black.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-two {
+  background-image: url('http://assets.worryandpeace.com/images/157-4033967-photo-1465631494067-3e0491e95bd1.jpeg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h2 {
+  margin-top: 29px;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.2;
+  color: white;
+}
+
+.banner-heading {
+  padding: 175px 0;
+}
+
+header .row {
+  -webkit-transition: margin 0.5s;
+  -moz-transition: margin 0.5s;
+  transition: margin 0.5s;
+  margin: 12px 0;
+}
+
+.border-left {
+  border-left: 1px solid #000;
+}
+
+aside.side {
+    padding: 15px;
+}
+
+button.linkedin {
+  background: #0077b5;
+  border: 1px solid #005e8f;
+}
+
+button.facebook {
+  background: #3b5998;
+  border: 1px solid #30497c;
+}
+
+button.linkedin:hover {
+  background: #00669c;
+  color: #fff;
+}
+
+button.facebook:hover {
+  background: #3a5387;
+  color: #fff;
+}
+
+button.facebook, button.linkedin {
+  border-radius: 0;  
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 0;
+}
+
+.form-divider {
+  /*border: 1px solid #000;*/
+  background: #000;
+  color: #fff;
+  font-size: 1.3em;
+  padding: 12px 15px 12px 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+aside.side.form-area {
+  background-color: white;
+  padding: 0 15px;
+}
+
+footer {
+  min-height: 100px;
+  background-color: #000;
+  margin-top: 30px;
+  text-align: center;
+  color: #eee;
+  line-height: 100px;
+}
+
+@media screen and (max-width: 991px) {
+  .border-left {
+    border: none;
+  }
+
+  .border-bottom {
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+  }
+
+  .logo-container {
+    text-align: center;
+    width: 100%;
+  }
+}
