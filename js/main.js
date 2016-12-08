@@ -53,14 +53,6 @@ function fillInAddress() {
   document.getElementById('street_addr').value = street_addr;
   document.getElementById('city_addr').value = city_addr;
   document.getElementById('postcode_addr').value = postcode_addr;
-
-  $( "#autocomplete-row" ).slideUp(function() {
-      $(this).slideDown();
-  });
-
-
-
-
 }
 
 // Bias the autocomplete object to the user's geographical location,
