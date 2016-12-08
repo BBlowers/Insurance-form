@@ -26,14 +26,6 @@ header .container {
   background-size: cover;
 }
 
-.parallax-two {
-  background-image: url('http://assets.worryandpeace.com/images/157-4033967-photo-1465631494067-3e0491e95bd1.jpeg');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .container {
     margin-right: auto;
     margin-left: auto;
@@ -103,7 +95,6 @@ button.facebook, button.linkedin {
 }
 
 .form-divider {
-  /*border: 1px solid #000;*/
   background: #000;
   color: #fff;
   font-size: 1.3em;
